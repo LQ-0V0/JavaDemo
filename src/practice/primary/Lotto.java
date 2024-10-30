@@ -12,7 +12,6 @@ public class Lotto {
             int length = String.valueOf(guessingNumber).length();
             if (length != 5) {
                 System.out.println("数据错误，请重新输入");
-                break;
             } else {
                 int lottoNumber = lotto();
                 int[] num1 = number(guessingNumber);
